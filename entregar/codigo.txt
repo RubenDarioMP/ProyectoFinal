@@ -1,0 +1,20 @@
+Private Sub calcular_Click()
+Dim feshnao As Date, edad As Integer
+feshnao = CDate(fcn)
+edad = CInt((Date - feshnao) / 365)
+eds = Str(edad) & “AÑOS”
+End Sub
+
+Private Sub lim_Click()
+fcn = “”
+eds = “”
+fcn.SetFocus
+End Sub
+
+Private Sub salir_Click()
+End
+End Sub
+
+Private Sub Timer1_Timer()
+Label1.Caption = Format(Time, "hh:mm:ss")
+End Sub
